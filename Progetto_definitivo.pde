@@ -12,6 +12,6 @@ void draw()
 pushMatrix();
 translate(100, 100);
 rotate(radians(frameCount *100));
-circle (40,40,40);
+ellipse (40,40,40,40);
 popMatrix();
 }
